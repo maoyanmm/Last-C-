@@ -1,0 +1,43 @@
+﻿生成启动时间为 2020/4/18 20:56:39。
+     1>项目“F:\Visual studio 2013编程\代码文件\test_2020_04_18_富途\test_2020_04_18_富途\test_2020_04_18_富途.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         F:\Visual studio 2013编程\VC\bin\CL.exe /c /I"F:\Visual studio 2013编程\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>f:\visual studio 2013编程\vc\include\xtree(1319): error C2100: 非法的间接寻址
+                 f:\visual studio 2013编程\vc\include\map(450): 参见对正在编译的函数 模板 实例化“void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::insert<_Iter>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,int>>
+         ,            _Iter=int
+                 ]
+                 f:\visual studio 2013编程\vc\include\map(450): 参见对正在编译的函数 模板 实例化“void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::insert<_Iter>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<std::pair<const int,int>>
+         ,            _Iter=int
+                 ]
+                 f:\visual studio 2013编程\代码文件\test_2020_04_18_富途\test_2020_04_18_富途\test.cpp(22): 参见对正在编译的函数 模板 实例化“void std::multimap<int,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<int>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+         ,            _Iter=int
+                 ]
+                 f:\visual studio 2013编程\代码文件\test_2020_04_18_富途\test_2020_04_18_富途\test.cpp(22): 参见对正在编译的函数 模板 实例化“void std::multimap<int,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<int>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+         ,            _Iter=int
+                 ]
+     1>已完成生成项目“F:\Visual studio 2013编程\代码文件\test_2020_04_18_富途\test_2020_04_18_富途\test_2020_04_18_富途.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.97

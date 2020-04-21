@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/4/21 19:17:28。
+     1>项目“F:\Visual studio 2013编程\代码文件\test__2020_04_21_刷题\test__2020_04_21_刷题\test__2020_04_21_刷题.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         F:\Visual studio 2013编程\VC\bin\CL.exe /c /I"F:\Visual studio 2013编程\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>f:\visual studio 2013编程\代码文件\test__2020_04_21_刷题\test__2020_04_21_刷题\test.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual studio 2013编程\代码文件\test__2020_04_21_刷题\test__2020_04_21_刷题\test.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\visual studio 2013编程\代码文件\test__2020_04_21_刷题\test__2020_04_21_刷题\test.cpp(31): error C2664: “std::vector<std::vector<std::string,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>::vector(std::initializer_list<std::vector<_Ty,std::allocator<_Ty>>>,const std::allocator<std::vector<_Ty,std::allocator<_Ty>>> &)”: 无法将参数 2 从“std::vector<char,std::allocator<char>>”转换为“const std::vector<std::string,std::allocator<_Ty>> &”
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 原因如下:  无法从“std::vector<char,std::allocator<char>>”转换为“const std::vector<std::string,std::allocator<_Ty>>”
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>已完成生成项目“F:\Visual studio 2013编程\代码文件\test__2020_04_21_刷题\test__2020_04_21_刷题\test__2020_04_21_刷题.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.15
